@@ -29,6 +29,28 @@ a {
     text-decoration: none   ;
 }
 
+.main-banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 100px 0;
+}
+
+.left-container{
+    flex: 1;
+}
+
+.right-container {
+    flex: 1;
+    display: flex;
+    background-color: grey;
+}
+
+img {
+    flex: 1;
+    text-align: center;
+}
+
 a,
 .text {
     font-size: 18px;
@@ -37,5 +59,19 @@ a,
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: bold;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    color: #f9faf8;
     font-weight: bold;
 }
