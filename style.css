@@ -1,0 +1,41 @@
+* {
+    border: 1px solid blue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+.hero-banner{
+    background-color: #1f2937;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none   ;
+}
+
+a,
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
