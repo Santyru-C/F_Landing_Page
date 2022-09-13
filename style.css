@@ -2,6 +2,11 @@
     border: 1px solid blue;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
 .container {
     display: flex;
     flex-direction: column;
@@ -14,6 +19,7 @@
 .header {
     display: flex;
     justify-content: space-between;
+    margin-top: 16px;
 }
 
 ul {
@@ -48,7 +54,11 @@ a {
 
 img {
     flex: 1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    color: #f9faf8;
 }
 
 a,
@@ -74,4 +84,34 @@ button {
     border-radius: 8px;
     color: #f9faf8;
     font-weight: bold;
+    margin-top: 8px;
+    border: 0;
+}
+
+.info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 48px 0;
+
+}
+
+.media-container {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.block {
+    max-width: 200px;
+}
+.action-img {
+    width: 150px;
+    height: 150px ;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+text.under{
 }
