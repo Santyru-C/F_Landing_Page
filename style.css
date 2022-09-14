@@ -1,11 +1,11 @@
 * {
-    border: 1px solid blue;
 }
 
-html, body {
+body {
     margin: 0;
     padding: 0;
-  }  
+    font-family: roboto;
+}  
 
 .container {
     display: flex;
@@ -13,9 +13,12 @@ html, body {
     padding: 0 150px;
 }
 
+/* Hero banner section*/
+
 .hero-banner{
     background-color: #1f2937;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -32,14 +35,14 @@ ul {
 }
 
 a {
-    text-decoration: none   ;
+    text-decoration: none;
 }
 
 .main-banner {
     display: flex;
     justify-content: space-between;
     gap: 32px;
-    padding: 100px 0;
+    margin: 100px 0;
 }
 
 .left-container{
@@ -52,7 +55,7 @@ a {
     background-color: grey;
 }
 
-img {
+.hero-img {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -62,7 +65,8 @@ img {
 }
 
 a,
-.text {
+.text,
+.action-subtext {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -88,6 +92,8 @@ button {
     border: 0;
 }
 
+/* Info section*/
+
 .info-title {
     color: #1f2937;
     font-size: 36px;
@@ -101,17 +107,67 @@ button {
     display: flex;
     gap: 32px;
     justify-content: center;
+    margin-bottom: 72px;
 }
 
 .block {
     max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
 .action-img {
     width: 150px;
     height: 150px ;
     border: 2px solid #3882f6;
     border-radius: 8px;
+    margin: 0 auto;
 }
 
-text.under{
+/* Quote Section*/
+
+.quote-section {
+    background-color: #e5e7eb;
 }
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    margin-top: 72px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 72px;
+}
+
+/* Call to action section*/
+
+.blue-block {
+    background-color: #3882f6;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    margin: 48px 0;
+    padding: 48px 72px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-main-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.action-button {
+    border: 2px solid white;
+}
+
+
